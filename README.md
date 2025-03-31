@@ -13,7 +13,7 @@ This project conducts a comprehensive analysis of an online subscription busines
 - Attribute conversions to appropriate channels to inform marketing strategy.
 - Conduct an A/B test to assess the effectiveness of personalised ads.
 - Segment users by demographics (age, language) to understand behavior patterns.
-- Investigate anomalies in campaign performance and assess their business impact.
+- Investigate anomalies in campaign performance and investigate their root cause and business impact.
 
 <img width="350" alt="Screenshot 2025-03-28 at 10 48 44 PM" src="https://github.com/user-attachments/assets/cb7f4758-34ca-4708-8f9a-94cfbd342750" />
 
@@ -64,7 +64,8 @@ This project conducts a comprehensive analysis of an online subscription busines
 ### 4. A/B Testing for Personalisation
 
 - Compared performance of generic vs personalised ads.
-- Personalised emails yielded a 40% increase in conversions which proved to be highlt statistically significant — indicating value in targeting.
+- Personalised emails yielded a 40% increase in conversions which proved to be highly statistically significant - indicating value in targeting.
+- Also analysed the affects of personalisation in different age groups - found that it lead to higher conversions among younger people, but slightly lower conversions among older people.
 
   <img width="500" alt="Screenshot 2025-03-28 at 10 50 38 PM" src="https://github.com/user-attachments/assets/9ddf286f-f7bc-4526-99c9-326505356c01" />
 
@@ -78,7 +79,9 @@ This project conducts a comprehensive analysis of an online subscription busines
 
 ## Key Insight: House Ads Language Bug and Subscription Loss
 
-A sudden and sustained **drop in House Ads conversions after January 10, 2018** prompted further investigation. Key findings:
+A sudden and sustained **drop in House Ads conversions after January 10, 2018** prompted further investigation.
+
+Key findings:
 
 - The number of House Ads shown in **non-English languages (Spanish, Arabic, German)** drastically declined after Jan 10.
 - Meanwhile, users with these languages as preferences continued to receive ads — now mostly in English.
